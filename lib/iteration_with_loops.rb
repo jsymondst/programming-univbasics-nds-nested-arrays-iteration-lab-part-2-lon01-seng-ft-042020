@@ -6,12 +6,14 @@ def find_min_in_nested_arrays(src)
      puts src[i].join
      puts src[i][0]
      min_value = src[i][0]
+     puts min_value
      for j in (0...src[i].length) do
        if src[i][j] < min_value
          puts src[i][j]
          min_value = src[i][j]
        end
      end
+     puts min_value
      result_array.push(min_value)
    end
 
