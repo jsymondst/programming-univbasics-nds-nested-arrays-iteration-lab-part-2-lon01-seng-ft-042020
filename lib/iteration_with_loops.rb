@@ -8,6 +8,7 @@ def find_min_in_nested_arrays(src)
      min_value = src[i][0]
      for j in (0...src[i].length) do
        if src[i][j] < min_value
+         puts src[i][j]
          min_value = src[i][j]
        end
      end
